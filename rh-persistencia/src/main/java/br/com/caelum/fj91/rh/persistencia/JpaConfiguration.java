@@ -27,7 +27,7 @@ public class JpaConfiguration {
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/rh?createDatabaseIfNotExist=true");
 		dataSource.setUsername("root");
-		dataSource.setPassword("");
+		dataSource.setPassword("caelum");
 		return dataSource;
 	}
 
